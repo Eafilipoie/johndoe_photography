@@ -24,7 +24,7 @@ body {
   background-size: 100% 100%;
 }
 .container {
-  margin: auto;
+  margin: 0 auto;
   width: 822px;
 
 }
@@ -76,16 +76,16 @@ nav ul li a {
   background-color: white;
 }
 
-hr {
+.copy-right {
   margin: auto;
-  width: 822px;
-  border-color: #2c1303;
-  height: 2px;
-  background-color: #2c1303;
-  box-shadow: 1px 1px 5px #7b5e39;
+  text-align: right;
+  color: #382f1c;
 
 }
-footer {
-  padding-top: 36px;
-  padding-bottom: 97px;
+.footer {
+  border-top: 2px solid #2c1303;
+  width: 100%;
+  padding-bottom: 73px;
+  padding-top: 15px;
+
 }
