@@ -29,10 +29,6 @@ body {
 
 }
 
-.header {
-  padding-top: :
-}
-
 .header .header-title-container {
   padding-top: 50px;
   padding-bottom: 70px;
@@ -57,7 +53,7 @@ nav ul li {
     display: inline-block;
     font-size: 13px;
     font-weight: bold;
-
+    padding-bottom: 27px;
 }
 
 nav ul li a:hover {
@@ -72,10 +68,36 @@ nav ul li a {
     color: #523117;
     text-decoration: none;
 }
-.main {
-  background-color: white;
+
+.slider {
+  padding: 22px 25px;
+  background-color: rgb(50, 13, 3, 0.6);
+
+}
+.img-main-first-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 770px;
+  height: 254px;
 }
 
+.photo-articles {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.photos {
+  padding: 16px 17px;
+  background-color: rgb(50, 13, 3, 0.6);
+}
+
+#misc{
+  margin-right: 0;
+
+}
 .copy-right {
   margin: auto;
   text-align: right;
