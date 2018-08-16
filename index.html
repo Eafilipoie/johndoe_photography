@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>Johndoe photography</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/sanitize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
@@ -26,24 +27,36 @@
       </header>
         <!---End HEADER Sections-->
       <main class="main">
+          <div class="right-arrow">
+            <i class="fa fa-angle-right"></i>
+          </div>
+          <div class="left-arrow">
+            <i class="fa fa-angle-left"></i>
+          </div>
         <section class="slider">
           <img class="img-main-first-image" src="https://picsum.photos/770/254">
         </section>
         <section class="photo-articles">
           <article class="photo-article" id="nature">
-            <img class="photos" src="https://picsum.photos/229/156?image=976" alt="image placeholder">
-            <h3>NATURE</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="photo-article__photo-container">
+              <img class="photo-article__photo" src="https://picsum.photos/229/156?image=976" alt="image placeholder">
+              <h3 class="photo-article__photo-caption">NATURE</h3>
+            </div>
+            <p class="ipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </article>
           <article class="photo-article" id="people">
-            <img class="photos" src="https://picsum.photos/229/156?image=841" alt="image placeholder">
-            <h3>PEOPLE</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="photo-article__photo-container">
+              <img class="photo-article__photo" src="https://picsum.photos/229/156?image=841" alt="image placeholder">
+              <h3 class="photo-article__photo-caption">PEOPLE</h3>
+            </div>
+            <p class="ipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </article>
           <article class="photo-article" id="misc">
-            <img class="photos" src="https://picsum.photos/229/156?image=1079" alt="image placeholder">
-            <h3>MISC</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="photo-article__photo-container">
+              <img class="photo-article__photo" src="https://picsum.photos/229/156?image=1079" alt="image placeholder">
+              <h3 class="photo-article__photo-caption">MISC</h3>
+            </div>
+            <p class="ipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </article>
         </section>
       </main>
