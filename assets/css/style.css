@@ -172,3 +172,16 @@ nav ul li a {
   padding-top: 15px;
 
 }
+
+
+
+/*--------------------------Media!!!!------------------*/
+
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    padding: 22px;
+    margin: 0;
+
+  }
+}
