@@ -313,6 +313,10 @@ nav ul li a {
   }
   .photo-article__photo-caption {
     font-size: 20px;
+    bottom: 8px;
+    right: 8px;
+    left: 8px;
+    padding-right: 30px;
   }
 
   .ipsum-text {
